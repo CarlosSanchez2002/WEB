@@ -1,0 +1,71 @@
+body{
+    color: rgb(255, 137, 58);
+    background-color: #fad5a4;
+    font-family: 'Fugaz One', cursive;
+}
+
+#seccion1{
+    font-size: 50px;
+    text-align: center;
+    background-color: #f8f8f8;
+    background-size: 10px ;
+    color: #b6783e;
+    margin-bottom:110px ;
+    border-radius: 10px;
+}
+
+
+#fotosa{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto ;
+    
+}
+
+.fotos {
+    text-align: center;
+    font-size: large;
+    font-family: 'Fugaz One', cursive;
+}
+
+.fotos img{
+    border-style:solid ;
+    border-width: 10px;
+    border-color: #b6783e;
+    border-radius: 20px;
+}
+
+.titulos{
+    background-color: #945c20;
+    background-size: 50% ;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.historia{
+    margin: auto;
+    background-color: #fce1c4;  
+    margin-left: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align:justify;
+    border-style:solid ;
+    border-width:10px ;
+    border-color: #db8c43;
+    color: #b6783e;
+    padding: 10px;
+}
+
+.mensaje{
+    width: 20px;
+    height: 20px;
+    background-color: #945c20;
+    margin: 30px;
+    padding: 10px;
+    font-size:larger;
+    font-family: 'Fugaz One', cursive;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 100%;
+}
